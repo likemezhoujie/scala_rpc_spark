@@ -39,6 +39,6 @@ object Master{
     //通过masterActorSystem对象创建actor
     val masterActor: ActorRef = masterActorSystem.actorOf(Props(new Master),"masterActor")
     //向master actor发送消息
-    //masterActor ! "content"
+    //masterActor ! "content"0
   }
 }
